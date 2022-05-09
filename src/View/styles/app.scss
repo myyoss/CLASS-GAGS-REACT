@@ -2,9 +2,6 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-// div {
-//   border: 1px solid red;
-// }
 .header {
   display: flex;
   justify-content: center;
@@ -18,7 +15,11 @@ body {
     padding: 0%;
     padding-top: 10px;
     color: #cfdbd7;
+    background:radial-gradient(circle, black, #8fc4c4);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
+
 }
 
 .App {
@@ -31,19 +32,16 @@ body {
   border-top: 4px solid #a1a1a1;
 
   .wrapper {
-
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    // background-color: aquamarine;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     padding: 30px;
     gap: 10px;
 
   }
 }
-.footer{
+
+.footer {
   font-size: large;
   color: #000;
   background-color: white;
@@ -52,4 +50,5 @@ body {
   justify-content: center;
   color: #cfdbd7;
   border-top: 4px solid #a1a1a1;
+  text-align: center;
 }
