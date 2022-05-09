@@ -1,3 +1,10 @@
+Funny gags quiz from class:
+- REACT
+- PRESS BUTTON- GET ANSWER AND CHANGES IMAGE
+- SOUND EFFECTS
+
+![redmeJpg](https://user-images.githubusercontent.com/93940739/167357463-0a92de0a-92fd-4670-8023-d01c992e2bc7.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
